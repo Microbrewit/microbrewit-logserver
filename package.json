@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node index.js",
         "watch-source": "./node_modules/.bin/nodemon index.js",
-        "test": "./node_modules/.bin/lab -c ./test",
+        "test": "./node_modules/lab/bin/lab -t 90 -r lcov | ./node_modules/coveralls/bin/coveralls.js",
         "watch-test": "./node_modules/.bin/nodemon --watch ./test --watch ./src --watch ./index.js --exec 'npm run test'",
         "lint": "./node_modules/.bin/eslint ./",
         "watch-lint": "./node_modules/.bin/nodemon --watch ./test --watch ./src --watch ./index.js --exec 'npm run lint'"
@@ -44,6 +44,7 @@
     },
     "devDependencies": {
         "code": "^2.2.0",
+        "coveralls": "^2.11.9",
         "eslint": "^2.7.0",
         "lab": "^10.3.1",
         "nodemon": "^1.9.1"
