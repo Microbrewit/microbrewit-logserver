@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Microbrewit/microbrewit-logserver.svg?branch=master)](https://travis-ci.org/Microbrewit/microbrewit-logserver)
 [![Coverage Status](https://coveralls.io/repos/github/Microbrewit/microbrewit-logserver/badge.svg?branch=master)](https://coveralls.io/github/Microbrewit/microbrewit-logserver?branch=master)
+[![Dependency Status](https://david-dm.org/microbrewit/microbrewit-logserver.svg?branch=master)](https://david-dm.org/microbrewit/microbrewit-logserver)
 
 A simple Hapi.js based log server that the microbrewit frontend can log events
 to.
