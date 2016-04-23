@@ -47,4 +47,4 @@ Currently no tests. Soon to come.
 
 ## Docker
 
-Docker image being planned.
+See [microbrewit logserver on docker hub](https://hub.docker.com/r/microbrewit/microbrewit-logserver/).
